@@ -1,0 +1,12 @@
+export const API_URL = 'http://localhost:3000/images';
+
+export const LOADING_IMAGES = 'LOADING_IMAGES';
+export const LOAD_IMAGES = 'LOAD_IMAGES';
+
+export const FETCH_IMAGE_LIST = 'FETCH_IMAGE_LIST';
+export const NAVIGATE_FORWARD = 'NAVIGATE_FORWARD';
+export const NAVIGATE_BACKWARD = 'NAVIGATE_BACKWARD';
+export const SWITCH_GALLERY = 'SWITCH_GALLERY';
+export const SET_CATS_ACTIVE = 'SET_CATS_ACTIVE';
+export const SET_SHARKS_ACTIVE = 'SET_SHARKS_ACTIVE';
+export const SET_BOTH_ACTIVE = 'SET_BOTH_ACTIVE';
