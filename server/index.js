@@ -13,6 +13,7 @@ router.use(express.static(
   path.resolve(__dirname, '..', 'build')
 ));
 
+
 app.get('/images', (req, res) => {
   switch (req.params) {
     case 'sharks':
@@ -29,6 +30,8 @@ app.get('/images', (req, res) => {
 })
 
 app.use(router);
+
+process.env.NODE_ENV = 'development';
 
 app.listen(PORT, (error) => {
   error ? console.log('An error has occurred', error) : '';
