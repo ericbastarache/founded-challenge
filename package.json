@@ -22,6 +22,7 @@
   },
   "scripts": {
     "start": "yarn build && yarn serve",
+    "start_windows": "yarn build && set NODE_ENV=development&&node ./server/bootstrap.js",
     "serve": "NODE_ENV=development node ./server/bootstrap.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
